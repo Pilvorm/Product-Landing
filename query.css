@@ -1,0 +1,438 @@
+@media only screen and (max-width: 1025px) {
+    .shop-wrapper {
+        margin: 125px 5%;
+    }
+
+    .games img {
+        width: 40vw;
+        border-radius: 3px 3px 0 0;
+    }
+
+    .detail-container {
+        max-width: 40vw;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .hero-grid-wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #hero-logo {
+        width: 40vw;
+    }
+
+    #hero-img {
+        object-fit: cover;
+        height: 40vw;
+        width: 100%;
+    }
+
+    .hero-description {
+        margin: 50px 40px 0 40px;
+    }
+
+    #hero p {
+        font-size: 24px;
+    }
+
+    .break {
+        margin: 100px 15%;
+    }
+
+    .break p {
+        font-size: 16px;
+        margin-top: 30px;
+    }
+
+    h2 {
+        font-size: 28px;
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    #world-img {
+        height: 45vw;
+    }
+
+    #trailer {
+        margin: 125px 25px;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    #trailer iframe {
+        width: 72vw;
+        height: 315px;
+        margin-top: 10px;
+    }
+
+    .overview-desc {
+        width: 80%;
+    }
+
+    #overview h2 {
+        font-size: 3vw;
+    }
+
+    #overview p {
+        margin-top: 15px;
+        font-size: 1.8vw;
+    }
+
+    #overview button {
+        margin-top: 25px;
+        padding: 1.6vw 2vw;
+        font-size: 1.8vw;
+    }
+
+    #overview img {
+        object-fit: cover;
+        width: 50%;
+        height: 55vw;
+    }
+
+    .games {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .games img {
+        width: 450px;
+    }
+
+    .detail-container {
+        max-width: 450px;
+    }
+
+    .detail {
+        margin: 30px 25px;
+    }
+
+    #shop h3 {
+        font-size: 20px;
+    }
+
+    .game-content {
+        font-size: 16px;
+    }
+
+    .price {
+        font-size: 22px;
+    }
+
+    .dlc-desc-wrapper {
+        margin: 50px 5%;
+    }
+
+    .dlc-list {
+        margin-top: 65px;
+        row-gap: 30px;
+    }
+
+    .dlc-item img {
+        width: 175px;
+    }
+
+    .dlc-item-desc {
+        width: 173px;
+    }
+
+    .dlc-item-desc h3 {
+        font-size: 18px;
+    }
+
+    .dlc-item-desc p {
+        font-size: 12px;
+    }
+
+    .disclaimer {
+        margin: 50px 10%;
+    }
+
+    .disclaimer p {
+        font-size: 16px;
+    }
+
+    .disclaimer p:not(:nth-child(1)) {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    button {
+        font-size: 14px;
+        padding: 10px 15px !important;
+    }
+
+    .hero-grid-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .hero-grid-wrapper.reverse>#hero-img {
+        grid-column: 1;
+    }
+
+    .hero-grid-wrapper.reverse>#hero-logo {
+        grid-row: 1;
+        grid-column: 2;
+    }
+
+    #hero-logo {
+        left: 0;
+        width: 250px;
+    }
+
+    #hero-img {
+        background-size: 100vw;
+        height: 50vw;
+        -webkit-mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
+        mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
+    }
+
+    .hero-description {
+        margin: 50px 40px 0 40px;
+    }
+    
+    .hero-description p {
+        font-size: 20px !important;
+    }
+    
+    .hero-description p i {
+        font-weight: normal;
+        font-style: italic;
+    }
+
+    .break {
+        text-align: center;
+        margin: 125px 5%;
+    }
+
+    .break p {
+        font-size: 14px;
+        margin-top: 30px;
+    }
+
+    #world-img {
+        width: 100%;
+        height: 300px;
+    }
+
+    #trailer {
+        margin: 125px 2%;
+        flex-direction: column;
+        align-items: center;
+        gap: 75px;
+    }
+
+    #trailer iframe {
+        width: 72vw;
+        height: 45vw;
+        margin-top: 25px;
+    }
+
+    #overview>.flex-wrapper:nth-child(odd) {
+        flex-direction: column-reverse;
+    }
+
+    #overview>.flex-wrapper:nth-child(even) {
+        flex-direction: column;
+    }
+
+    .overview-desc {
+        width: 80%;
+        margin: 75px 0;
+        line-height: 1.5;
+    }
+
+    #overview h2 {
+        font-size: 18px;
+    }
+
+    #overview p {
+        margin-top: 15px;
+        font-size: 14px;
+    }
+
+    #overview button {
+        margin-top: 25px;
+        font-size: 12px;
+        padding: 10px 15px;
+    }
+
+    #overview img {
+        object-fit: cover;
+        width: 100%;
+        height: 60vw;
+    }
+
+    .shop-wrapper {
+        margin: 50px 5%;
+    }
+
+    .games {
+        margin-top: 50px;
+        gap: 30px;
+    }
+
+    .games img {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .detail-container {
+        max-width: 70%;
+        height: auto;
+        margin: 0 auto;
+        padding: 25px 12.5px;
+    }
+
+    .detail {
+        margin: 0;
+        gap: 25px;
+        height: 100%;
+    }
+
+    #shop h3 {
+        font-size: 16px;
+    }
+
+    .game-content {
+        font-size: 14px;
+    }
+
+    .price {
+        font-size: 18px;
+    }
+
+    .price s {
+        font-size: 16px;
+    }
+
+    .offer-note {
+        font-size: 14px;
+        text-align: left;
+        color: #b2b2b2;
+        margin-top: 5px;
+    }
+
+    .buy-btn span {
+        font-size: 12px;
+    }
+
+    #dlc-header {
+        object-fit: cover;
+    }
+
+    .dlc-desc-wrapper {
+        margin: 50px 5%;
+    }
+
+    .dlc-list {
+        margin-top: 50px;
+        column-gap: 5px;
+        row-gap: 25px;
+    }
+
+    .dlc-item img {
+        width: 125px;
+    }
+
+    .dlc-item-desc {
+        width: 123px;
+    }
+
+    .dlc-item-desc h3 {
+        font-size: 12px;
+        margin: 5px 0 0 0;
+    }
+
+    .dlc-item-desc p {
+        display: none;
+    }
+
+    #trademark {
+        padding-bottom: 100px;
+    }
+
+    .platform {
+        flex-direction: column;
+    }
+
+    .publisher {
+        gap: 10vw;
+    }
+
+    .platform {
+        margin-top: 50px;
+        gap: 8vw;
+    }
+
+    #wbgames {
+        height: 18vw;
+    }
+
+    #disneylucas {
+        height: 10vw;
+    }
+
+    #xboxseries,
+    #xboxone,
+    #playstation {
+        height: 6vw;
+    }
+
+    #nintendo,
+    #pc {
+        width: 13vw;
+    }
+
+    #rating {
+        width: 22vw !important;
+        height: auto;
+    }
+
+    .disclaimer {
+        margin: 125px 10%;
+    }
+
+    .disclaimer p {
+        font-size: 14px;
+    }
+
+    .disclaimer p:not(:nth-child(1)) {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .games img {
+        width: 90vw;
+    }
+
+    .detail-container {
+        max-width: 90vw !important;
+    }
+
+    .detail {
+        margin: 30px 5px;
+    }
+
+    #shop h3 {
+        font-size: 20px;
+    }
+
+    .dlc-item img {
+        width: 150px;
+    }
+
+    .dlc-item-desc {
+        width: 148px;
+    }
+}
