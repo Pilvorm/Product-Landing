@@ -1,4 +1,4 @@
-# Caffein Line - [Live Preview](https://legoproductlanding.netlify.app/)
+# Product Landing Page - [Live Preview](https://legoproductlanding.netlify.app/)
 A landing page of LEGO Star Wars: The Skywalker Saga.
 
 **This page is an imitation of the official LEGO® STAR WARS™: THE SKYWALKER SAGA landing page. Page coded by Daniel Emerald only for learning purposes and non-commercial use.**
